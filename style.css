@@ -52,9 +52,9 @@ ul li {
   /* background-repeat: no-repeat; */
 }
 
-/* ------------------------------------NAVBAR END----------------------------------------------------- */
+/* ------------------------------ NAVBAR END ---------------------------------- */
 
-/* ---------------------------------HERO SECTION-------------------------------------------------------- */
+/* ----------------------------- HERO SECTION ------------------------------- */
 
 .hero-section {
   min-width: 100px;
@@ -91,13 +91,14 @@ ul li {
   font-size: 20px;
 }
 
-/* -----------------------------Search & BUTTON----------------------------------------- */
+/* -----------------------------Search & BUTTON -------------------------------------- */
 
 .search-hero {
+  max-width: 80%;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: crimson; */
 }
 .hero-section input {
   margin-top: 30px;
@@ -120,10 +121,12 @@ ul li {
   font-weight: 800;
 }
 
-/* ------------------------------------------------------------------------------------ */
+/* ---------------------------  ------------------------------- */
 
 .bottom-hero {
   min-height: 80px;
+  max-width: 80%; 
+  margin: 0px auto;
   /* background-color: purple; */
 }
 
@@ -167,7 +170,7 @@ ul li {
 .get-hire {
   
   max-width: 80%; 
-  margin: 40px auto;
+  margin: 100px auto;
 }
 .get-hire h1 {
   font-size: 50px;
@@ -183,7 +186,6 @@ ul li {
   margin: 40px auto;
   height: 230px;
   display: flex;
-  /* background-color: crimson; */
 }
 .container .box {
   padding-top: 30px;
@@ -216,7 +218,7 @@ ul li {
   color: #6856ff;
 }
 
-/* ------------------------------SECTION 4 ---------------------------------------------------- */
+/* ------------------------------SECTION 4 --------------------------------------------*/
 
 .section4 {
   margin-top: 200px;
@@ -243,7 +245,7 @@ ul li {
   background-repeat: no-repeat;
 }
 
-/* ------------------------------Section 5--------------------------------------------------------- */
+/* ------------------------------Section 5--------------------------------------- */
 .section-5 {
   text-align: center;
   margin-top: 150px;
@@ -358,7 +360,7 @@ font-size: 1.35rem;
   justify-content: space-between;
 }
 
-/* ----------------------- SECTION 7 -------------------------------------------- */
+/* ----------------------- SECTION 7 ------------------------------ */
 .section-7{
   display: flex; 
   margin: 90px 90px;
@@ -422,7 +424,7 @@ footer{
   color: white;
 }
 
-/* -------------FOOTER-1 LEFT----------------------- */
+/* ----------------FOOTER-1 LEFT----------------------- */
 .footer1 .footer-left h1 {
   margin-top: 10px;
   font-size: 15px;
@@ -474,11 +476,6 @@ text-align: center;
   border: 1px solid #85c0f0;
   background-color: transparent;
 }
-
-
-
-
-
 
 /* -------------------MEDIA QUERIES--------------------------- */
 
